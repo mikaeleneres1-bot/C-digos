@@ -1,0 +1,42 @@
+seletor { 
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    color: rgb(128, 0, 70);
+
+}  /*2. CORPO DA PÁGINA: Estiliza o fundo e a fonte geral
+   ========================================================= */
+body {
+    background-color: #c97c25; /* Cor de fundo (cinza claro) */
+    font-family: Arial, sans-serif; /* Tipo da letra */
+}
+
+/* =========================================================
+   3. O CARTÃO (Classe .cartao do HTML)
+   ========================================================= */
+.cartao {
+    background-color: rgb(36, 204, 14);   /* Fundo do cartão (branco) */
+    width: 300px;              /* Largura fixa de 300 pixels */
+    margin: 40px auto;         /* 40px no topo/baixo e centraliza nas laterais */
+    padding: 20px;             /* Espaço interno de 20px em volta do texto */
+    border-radius: 10px;       /* Arredonda os cantos da caixa */
+}
+
+/* =========================================================
+   4. TÍTULO (Tag <h1> dentro do cartão)
+   ========================================================= */
+h1 {
+    color: #b30086;            /* Cor do texto (azul) */
+    font-size: 20px;           /* Tamanho do texto em pixels */
+    margin-bottom: 10px;       /* Espaço de 10px abaixo do título */
+}
+
+/* =========================================================
+   5. PARÁGRAFO (Tag <p> dentro do cartão)
+   ========================================================= */
+p {
+    color: #141414;            /* Cor do texto (cinza escuro) */
+    font-size: 14px;           /* Tamanho do texto */
+}
